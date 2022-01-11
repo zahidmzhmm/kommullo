@@ -201,7 +201,7 @@ export default function Home() {
                                 <div className="img"><Image src="/images/7.jpg" width={500} height={500}/></div>
                                 <div className="content text-center">
                                     <p className="text-uppercase subTitle">eye wash station, safety equipment</p>
-                                    <h1 className="text-capitalize title mb-0">Unicare Indutrial Eye Cacting</h1>
+                                    <h1 className="text-capitalize title mb-0">Unicare Indutrial Eye Cacting asdfsiodgyiosdgisdughsidgsdig</h1>
                                     <h5 className="text-capitalize price mb-0">
                                         <del className="pe-2">$13,500</del>
                                         <p>$11,500</p>
