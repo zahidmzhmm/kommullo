@@ -11,9 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59a5ccde-5391-4bff-a781-726c5d0ac84b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <workItem from="1641779012753" duration="663000" />
       <workItem from="1641793651162" duration="5459000" />
       <workItem from="1641861461454" duration="2192000" />
-      <workItem from="1641874374522" duration="1904000" />
+      <workItem from="1641874374522" duration="2014000" />
     </task>
     <servers />
   </component>
