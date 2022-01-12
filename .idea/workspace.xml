@@ -11,16 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59a5ccde-5391-4bff-a781-726c5d0ac84b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/layouts/items/MobHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/responsive.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/layouts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layouts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +75,7 @@
       <workItem from="1641793651162" duration="5459000" />
       <workItem from="1641861461454" duration="2192000" />
       <workItem from="1641874374522" duration="30750000" />
-      <workItem from="1641947985213" duration="7882000" />
+      <workItem from="1641947985213" duration="9636000" />
     </task>
     <servers />
   </component>
@@ -110,22 +102,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1641535694108" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1641948102083">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1641957397217">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1641948102083" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1641948102083">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1641957397217" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1641957397217">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1641948102083" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1641948102083">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1641957397217" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1641957397217">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1641948102083" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1641948102083">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1641957397217" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1641957397217">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1641948102083" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1641957397217" />
     <state x="492" y="275" key="IDE.errors.dialog" timestamp="1641861849599">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
