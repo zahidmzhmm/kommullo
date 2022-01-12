@@ -207,7 +207,7 @@ p {
   .dropdownParentItem {
     background: $white;
     border-bottom: 1px solid $border-color;
-    transition: 400ms;
+    transition: $duration;
 
     .discount {
       color: $white;
@@ -314,10 +314,10 @@ p {
 
   .icon {
     font-size: 23px;
-    transition: 400ms;
+    transition: $duration;
 
     button {
-      transition: 400ms;
+      transition: $duration;
       border: none;
       background: transparent;
     }
@@ -356,7 +356,7 @@ p {
     z-index: 999;
     background: $white;
     left: -100%;
-    transition: 400ms;
+    transition: $duration;
     margin-top: 4rem;
 
     &.activeSearchBar {
@@ -372,7 +372,7 @@ p {
     background: $white;
     overflow-y: auto;
     left: -100%;
-    transition: 400ms;
+    transition: $duration;
     border-bottom: 1px solid $border-color;
     margin-top: 4rem;
 
@@ -382,7 +382,7 @@ p {
       .nav-link {
         color: $paragraph3;
         font-size: 14px;
-        transition: 400ms;
+        transition: $duration;
 
         &:hover {
           color: $white;
@@ -416,7 +416,7 @@ p {
 
     .navIcon {
       color: $paragraph3;
-      transition: 400ms;
+      transition: $duration;
 
       &.active {
         color: $primary;

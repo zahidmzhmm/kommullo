@@ -73,7 +73,8 @@ export default function Home() {
             <Container className="px-0 mt-3">
                 <div className="row mx-0 category">
                     <div className="col-md-4 ps-0 content mb-3">
-                        <div className="img"><Image className="me-md-2" src="/images/4.png" width={500} height={300}/></div>
+                        <div className="img"><Image className="me-md-2" src="/images/4.png" width={500} height={300}/>
+                        </div>
                         <div className="text">
                             <p className="mb-2">
                                 Everydoy Fresh & <br/> Clean with Our <br/> Product
@@ -84,7 +85,8 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="col-md-4 ps-0 content mb-3">
-                        <div className="img"><Image className="me-md-2" src="/images/5.png" width={500} height={300}/></div>
+                        <div className="img"><Image className="me-md-2" src="/images/5.png" width={500} height={300}/>
+                        </div>
                         <div className="text">
                             <p className="mb-2">
                                 Make your breakfast<br/> Healthy and<br/> Easy
@@ -95,7 +97,8 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="col-md-4 ps-0 content mb-3">
-                        <div className="img"><Image className="me-md-2" src="/images/6.png" width={500} height={300}/></div>
+                        <div className="img"><Image className="me-md-2" src="/images/6.png" width={500} height={300}/>
+                        </div>
                         <div className="text">
                             <p className="mb-2">
                                 The best Organic<br/> Products <br/> Online
@@ -117,8 +120,8 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="row mx-md-0">
-                    {data.map((data) =>
-                        <div className="col-xxl-2 col-xl-3 col-6 px-0 col-md-4 mb-2">
+                    {data.map((data, index) =>
+                        <div key={index} className="col-xxl-2 col-xl-3 col-6 px-0 col-md-4 mb-2">
                             <div className="productCard p-2 p-xl-0 m-1">
                                 <div className="img"><Image src="/images/7.jpg" width={500} height={500}/></div>
                                 <div className="content text-center">
@@ -156,8 +159,8 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="row mx-md-0">
-                    {data.map((data) =>
-                        <div className="col-xxl-2 col-xl-3 col-6 px-0 col-md-4 mb-2">
+                    {data.map((data, index) =>
+                        <div key={index} className="col-xxl-2 col-xl-3 col-6 px-0 col-md-4 mb-2">
                             <div className="productCard p-2 p-xl-0 m-1">
                                 <div className="img"><Image src="/images/7.jpg" width={500} height={500}/></div>
                                 <div className="content text-center">
@@ -195,13 +198,14 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="row mx-md-0">
-                    {data.map((data) =>
-                        <div className="col-xxl-2 col-xl-3 col-6 px-0 col-md-4 mb-2">
+                    {data.map((data, index) =>
+                        <div key={index} className="col-xxl-2 col-xl-3 col-6 px-0 col-md-4 mb-2">
                             <div className="productCard p-2 p-xl-0 m-1">
                                 <div className="img"><Image src="/images/7.jpg" width={500} height={500}/></div>
                                 <div className="content text-center">
                                     <p className="text-uppercase subTitle">eye wash station, safety equipment</p>
-                                    <h1 className="text-capitalize title mb-0">Unicare Indutrial Eye Cacting asdfsiodgyiosdgisdughsidgsdig</h1>
+                                    <h1 className="text-capitalize title mb-0">Unicare Indutrial Eye Cacting
+                                        asdfsiodgyiosdgisdughsidgsdig</h1>
                                     <h5 className="text-capitalize price mb-0">
                                         <del className="pe-2">$13,500</del>
                                         <p>$11,500</p>
@@ -234,8 +238,8 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="row mx-md-0">
-                    {data.map((data) =>
-                        <div className="col-xxl-2 col-xl-3 col-6 px-0 col-md-4 mb-2">
+                    {data.map((data, index) =>
+                        <div key={index} className="col-xxl-2 col-xl-3 col-6 px-0 col-md-4 mb-2">
                             <div className="productCard p-2 p-xl-0 m-1">
                                 <div className="img"><Image src="/images/7.jpg" width={500} height={500}/></div>
                                 <div className="content text-center">
@@ -273,8 +277,8 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="row mx-md-0">
-                    {data.map((data) =>
-                        <div className="col-xxl-2 col-xl-3 col-6 px-0 col-md-4 mb-2">
+                    {data.map((data, index) =>
+                        <div key={index} className="col-xxl-2 col-xl-3 col-6 px-0 col-md-4 mb-2">
                             <div className="productCard p-2 p-xl-0 m-1">
                                 <div className="img"><Image src="/images/7.jpg" width={500} height={500}/></div>
                                 <div className="content text-center">
