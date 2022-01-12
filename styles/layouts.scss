@@ -195,6 +195,7 @@ p {
       transition: 400ms;
       z-index: 999;
       display: none;
+      border: 1px solid $border-color;
 
 
       &.activeDeptDropdown {
@@ -297,49 +298,137 @@ p {
   overflow: hidden;
 }
 
-@media (min-width: 1200px) {
-  .mainNavbarSection {
-    .bigSearchBar {
-      width: 55%;
+.mobileHeader {
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  z-index: 999;
+
+  .topbarSection {
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    background: $white;
+    border-bottom: 1.3px solid $border-color;
+  }
+
+  .icon {
+    font-size: 23px;
+    transition: 400ms;
+
+    button {
+      transition: 400ms;
+      border: none;
+      background: transparent;
     }
-  }
 
-}
+    &.activeNavIcon {
+      color: $primary;
 
-@media (max-width: 991px) {
-  .ul_bordersm {
-    border-right: 1px solid $border_color;
-  }
-  .online_support {
-    .supportHeading {
-      line-height: 1.5 !important;
-      text-align: center;
-
-      span {
-        font-size: 15px;
+      button {
+        color: $primary;
       }
     }
 
+    &:hover {
+      @extend .activeNavIcon;
+    }
+  }
 
-    ul {
-      padding-right: 1rem;
+  .rightIcons {
+    text-align: center;
+
+    .search {
+      margin-top: 3px;
+      margin-left: 10px;
+      font-size: 20px;
+
     }
 
-    p {
-      font-size: 13px;
-      text-align: center;
+    .icon {
+      width: 3rem;
+    }
+  }
+
+  .searchBarForm {
+    position: absolute;
+    width: 100vw;
+    z-index: 999;
+    background: $white;
+    left: -100%;
+    transition: 400ms;
+    margin-top: 4rem;
+
+    &.activeSearchBar {
+      left: 0;
+    }
+  }
+
+  .mainBarSection {
+    position: absolute;
+    width: 100vw;
+    max-height: 60vh;
+    z-index: 999;
+    background: $white;
+    overflow-y: auto;
+    left: -100%;
+    transition: 400ms;
+    border-bottom: 1px solid $border-color;
+    margin-top: 4rem;
+
+    .nav-item {
+      border-bottom: 1.3px solid $border-color;
+
+      .nav-link {
+        color: $paragraph3;
+        font-size: 14px;
+        transition: 400ms;
+
+        &:hover {
+          color: $white;
+          background: $primary;
+        }
+      }
+    }
+
+    &.activeMainSection {
+      left: 0;
     }
   }
 }
 
-@media (min-width: 992px) {
-  .navbarBottom .nav-link {
-    padding: .5rem .6rem;
+.mobileHeaderBottom {
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
+  bottom: 0;
+  height: 3rem;
+  background: $white;
+  text-align: center;
+  border-top: 1.3px solid $border-color;
+
+  .bottomBarSection {
+
+    .icon {
+      font-size: 20px;
+      margin-top: 3px;
+    }
+
+    .navIcon {
+      color: $paragraph3;
+      transition: 400ms;
+
+      &.active {
+        color: $primary;
+      }
+
+      &:hover {
+        @extend .active;
+      }
+    }
   }
 }
 
-@media (max-width: 525px) {
-  .ul_bordersm {
-    border-right: 1px solid $border_color;
-  }
+.mainPadding {
+  padding-top: 4rem;
 }

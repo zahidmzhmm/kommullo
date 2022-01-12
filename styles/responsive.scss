@@ -1,0 +1,46 @@
+@media (min-width: 1200px) {
+  .mainNavbarSection {
+    .bigSearchBar {
+      width: 55%;
+    }
+  }
+
+}
+
+@media (max-width: 991px) {
+  .ul_bordersm {
+    border-right: 1px solid $border_color;
+  }
+  .online_support {
+    .supportHeading {
+      line-height: 1.5 !important;
+      text-align: center;
+
+      span {
+        font-size: 15px;
+      }
+    }
+
+
+    ul {
+      padding-right: 1rem;
+    }
+
+    p {
+      font-size: 13px;
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .navbarBottom .nav-link {
+    padding: .5rem .6rem;
+  }
+}
+
+@media (max-width: 525px) {
+  .ul_bordersm {
+    border-right: 1px solid $border_color;
+  }
+}

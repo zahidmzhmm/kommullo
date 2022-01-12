@@ -22,7 +22,7 @@ export default function Home() {
                 <meta property="og:image" content="https://zahidmzhmm.com/uploads/169img.jpg"/>
             </Head>
             <Header navActiveStatus={true}/>
-            <Container className="sliderSection px-0">
+            <Container className="sliderSection px-0 pt-4 pt-lg-0">
                 <Swiper spaceBetween={0}
                         slidesPerView={1}>
                     <SwiperSlide>

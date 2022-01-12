@@ -170,5 +170,74 @@
 }
 
 .mainContentData {
-  min-height: 42vh;
+  min-height: 52.7vh;
+
+  .heading {
+    font-size: 29px;
+    font-weight: 600;
+    color: $paragraph3;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    color: $paragraph3;
+  }
+
+  .breadcrumb {
+    margin-bottom: 8px;
+
+
+    .breadcrumb-item {
+      color: $paragraph;
+
+      a {
+        text-decoration: none;
+        color: $paragraph;
+      }
+    }
+  }
+
+  .barIcon {
+    text-align: right;
+    font-size: 20px;
+    width: 3rem;
+    padding: .3rem;
+  }
+
+  .pagination {
+    .page-link {
+      color: $primary;
+      border: 1px solid $primary;
+    }
+
+    .active {
+      .page-link {
+        color: $white;
+        border: 1px solid $primary;
+        background: $primary;
+      }
+    }
+  }
+
+  .leftList {
+    .list-group-item {
+      a {
+        color: $paragraph3;
+        text-decoration: none;
+        font-size: 14px;
+        transition: 300ms;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .table {
+    a {
+      text-decoration: none;
+      color: $paragraph3;
+    }
+  }
 }
