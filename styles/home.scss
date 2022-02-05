@@ -152,7 +152,8 @@
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 17px;
+    text-transform: uppercase;
     font-weight: 700;
   }
 
@@ -167,6 +168,10 @@
       color: $primary;
     }
   }
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
 }
 
 .mainContentData {

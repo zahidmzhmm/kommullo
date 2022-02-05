@@ -37,11 +37,11 @@ const Header = ({navActiveStatus}) => {
                                 <NavItem link="/login" name="Login"/>
                             </ul>
                             <div className="d-flex topbarDropdown py-2">
-                                <select className="form-control" name="" id="">
+                                <select className="form-select-sm" name="" id="">
                                     <option value="en">ENG</option>
                                     <option value="bn">BN</option>
                                 </select>
-                                <select className="form-control ms-2" name="" id="">
+                                <select className="form-select-sm ms-2" name="" id="">
                                     <option value="en">USD</option>
                                     <option value="bn">EU</option>
                                 </select>
@@ -58,7 +58,7 @@ const Header = ({navActiveStatus}) => {
                 <div className="mainNavbarSection py-3">
                     <Container className="px-0">
                         <div className="d-flex">
-                            <div className="logo"><Image src="/images/logo.png" width={300} height={80} alt="Logo"/>
+                            <div className="logo cursor-pointer"><Image src="/images/logo.png" width={300} height={80} alt="Logo"/>
                             </div>
                             <div className="bigSearchBar mt-2 d-flex">
                                 <input type="text" className="form-control" placeholder="Search..."/>

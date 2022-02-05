@@ -32,78 +32,83 @@ const MobHeader = () => {
                         <div className="icon cart"><BsCart2/></div>
                     </div>
                 </div>
-                <div className={`mainBarSection ${activeNav && 'activeMainSection'}`}>
-                    <ul className="nav flex-column">
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Active</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Link</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Link</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
-                        </li>
-                    </ul>
+                <div className={`mainBarSection ${activeNav && 'activeMainSection'}`} onClick={() => {
+                    setSearchNav(false)
+                    setActiveNav(!activeNav)
+                }}>
+                    <div className="contentSection">
+                        <ul className="nav flex-column">
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Link</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Link</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link disabled">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div className={`searchBarForm ${searchNav && 'activeSearchBar'}`}>
                     <form action="">

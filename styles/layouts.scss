@@ -353,28 +353,34 @@ p {
   .searchBarForm {
     position: absolute;
     width: 100vw;
-    z-index: 999;
+    z-index: -1;
     background: $white;
-    left: -100%;
     transition: $duration;
     margin-top: 4rem;
+    left: 0;
+    top: -200%;
 
     &.activeSearchBar {
-      left: 0;
+      top: 0;
     }
   }
 
   .mainBarSection {
-    position: absolute;
     width: 100vw;
-    max-height: 60vh;
     z-index: 999;
-    background: $white;
-    overflow-y: auto;
+    position: absolute;
+    max-height: 88vh;
     left: -100%;
-    transition: $duration;
-    border-bottom: 1px solid $border-color;
     margin-top: 4rem;
+    overflow-y: auto;
+
+    .contentSection {
+      background: $white;
+      width: 80vw;
+      transition: $duration;
+      border-right: 1.3px solid $border-color;
+      border-bottom: 1px solid $border-color;
+    }
 
     .nav-item {
       border-bottom: 1.3px solid $border-color;
